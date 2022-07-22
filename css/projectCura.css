@@ -1,0 +1,420 @@
+.imgSpiral{
+  
+    position: absolute;
+  
+    top:10vw;
+    left:3vw;
+    transform: scale(170%);
+    opacity: 15%;
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    margin:0;
+}
+
+.header1{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    top:10vw;
+    left:20vw;
+    font-size:4.5vw;
+}
+
+.h2-sub{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-weight:300;
+    top:16vw;
+    left:20.5vw;
+    font-size:2vw;
+}
+
+.main-nav{
+
+    position: absolute;
+    top:5vw;
+    left:73vw;
+    
+}
+.main-nav a{
+    font-family:  'Lato', sans-serif;
+    font-size:1vw;
+    margin-left: 1vw;
+    text-decoration: none;
+    color: black;
+}
+
+.imgLogo{
+    position: absolute;
+
+    top:10vw;
+    left:12vw;
+
+}
+
+.imgCuraHome{
+    position: relative;
+   z-index: 1;
+    left:10vw;
+    bottom:-26vw;
+}
+
+.titles{
+    font-size:1.3vw;
+    font-family:  'Lato', sans-serif;
+    
+}
+
+.title1{
+    font-weight: 700;
+    position: absolute;
+    top:29vw;
+    left:32vw;
+}
+
+.title2{
+    font-weight: 700;
+    position: absolute;
+    top:32vw;
+    left:32vw;
+}
+
+.title3{
+    font-weight: 700;
+    position: absolute;
+    top:35vw;
+    left:32vw;
+}
+
+.title2Sub{
+    position: absolute;
+    top:32vw;
+    left:37vw;
+}
+
+.title3Sub{
+    position: absolute;
+    top:35vw;
+    left:37vw;
+}
+
+.title4{
+    font-weight: 700;
+    position: absolute;
+    top:38vw;
+    left:32vw;
+}
+
+.title4Sub{
+    position: absolute;
+    top:38vw;
+    left:37vw;
+}
+
+.projHeaders{
+    position: absolute;
+    left:12vw;
+}
+
+.goals{
+    top:65vw;
+    font-family:  'Lato', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.para1{
+    position: absolute;
+    font-size:1.2vw;
+    white-space: pre-line;
+
+    font-family: 'Lato',sans-serif;
+    top:69vw;
+    left:12vw;
+    width:50vw;
+
+}
+
+.process{
+    top:87vw;
+    font-family:  'Lato', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+.para2{
+    position: absolute;
+    font-size:1.2vw;
+    font-family: 'Lato',sans-serif;
+    top:93vw;
+    left:12vw;
+    width:50vw;
+
+}
+
+.imgSketch1{
+    position: absolute;
+    top:100vw;
+    left:10vw;
+}
+
+.imgSketch2{
+    position: absolute;
+    top:140vw;
+    left:11vw;
+}
+
+.figureCaption1{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:133vw;
+    left:12vw;
+}
+
+.figureCaption2{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:156vw;
+    left:12vw;
+}
+
+.para3{
+    position: absolute;
+    font-size:1.2vw;
+    font-family: 'Lato',sans-serif;
+    top:160vw;
+    left:12vw;
+    width:50vw;
+}
+
+.imgCuraRem{
+    position: absolute;
+    top:169vw;
+    left:12vw;
+}
+
+.imgCuraRem2{
+    position: absolute;
+    top:169vw;
+    left:30vw;
+}
+
+.imgCuraMap{
+    position: absolute;
+    top:169vw;
+    left:48vw;
+}
+
+.figureCaption3{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:201vw;
+    left:13vw;
+    width:13vw;
+    text-align: center;
+}
+
+.figureCaption4{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:201vw;
+    left:31vw;
+    width:13vw;
+    text-align: center;
+}
+
+.figureCaption5{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:201vw;
+    left:49vw;
+    width:13vw;
+    text-align: center;
+}
+
+.imgCode{
+    position: absolute;
+    top:220vw;
+    left:10vw;
+}
+
+.para4{
+    position: absolute;
+    font-size:1.2vw;
+    font-family: 'Lato',sans-serif;
+    top:208vw;
+    left:12vw;
+    width:50vw;
+}
+
+.figureCaption6{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:260vw;
+    left:16vw;
+    width:40vw;
+    text-align: center;
+}
+
+.challenges{
+    top:264vw;
+    font-family:  'Lato', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.para5{
+    position: absolute;
+    font-size:1.2vw;
+    white-space: pre-line;
+
+    font-family: 'Lato',sans-serif;
+    top:269vw;
+    left:12vw;
+    width:50vw; 
+    padding-bottom:5vw;
+}
+
+.dot-nav, a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    vertical-align: baseline;
+    font-size:1.3vw;
+}
+
+
+.nav2{
+    text-align: center;
+    overflow: hidden;
+    margin:12em auto;
+    width:40vw;
+    position: relative;
+    bottom:63vw;   
+    left:28vw;
+}
+
+.nav2 a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10em 0 2.9em;
+    width:25%;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.nav2 a:hover{
+    color: tomato;
+
+}
+
+.effect{
+    position: absolute;
+    left:-12.5%;
+    transition: 0.7s ease-in-out;
+}
+
+.nav2 a:nth-child(1):hover ~ .effect{
+    left:12.5%;
+}
+
+.nav2 a:nth-child(2):hover ~ .effect{
+    left:37.5%;
+}
+
+.nav2 a:nth-child(3):hover ~ .effect{
+    left:62.5%;
+}
+.nav2 a:nth-child(4):hover ~ .effect{
+    left:87.5%;
+}
+
+.dot-nav::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 55%;
+    height:0.05vw; /*if i wanna remove the line this is the spot*/
+    background: tomato;
+    bottom: 3.2vw;
+}
+
+.dot-nav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:0.35vw;
+    height:0.35vw;
+    bottom:3vw;
+    left:50%;
+    margin-left: -0.1vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.dot-nav .effect{
+    width: 0.6vw;
+    height: 0.6vw;
+    bottom:2.9vw;
+    margin-left:-0.3vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+@media(min-width:10rem){
+    .imgSpiral{
+        transform: scale(70%);
+        top:-16vw;
+        left:-23vw;
+    }
+    .para1{
+        width:45vw;
+    }
+    .para2{
+        width:45vw;
+    }
+    .para3{
+        width:45vw;
+    }
+    .para4{
+        width:45vw;
+    }
+    .para5{
+        width:45vw;
+    }
+  
+}
+
+@media(min-width:40rem){
+    .imgSpiral{
+        transform: scale(160%);
+        top:10vw;
+        left:3vw;
+    }
+    .para1{
+        width:50vw;
+    }
+    .para2{
+        width:50vw;
+    }
+    .para3{
+        width:50vw;
+    }
+    .para4{
+        width:50vw;
+    }
+    .para5{
+        width:50vw;
+    }
+}

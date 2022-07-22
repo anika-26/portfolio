@@ -1,0 +1,177 @@
+.about-para{
+    white-space: pre-line;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top:67vw;
+    width:40vw;
+    left:12vw;
+    font-size: 1.2vw;
+    padding-bottom: 2.5vw;
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    margin:0;
+    overflow-x: hidden;
+}
+
+.h1-name{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    top:12vw;
+    left:19.3vw;
+    font-size:4.5vw;
+}
+
+.imgLogo{
+    position:absolute;
+    top:12vw;
+    left:12vw;
+}
+
+.imgAbout{
+    position: absolute;
+    z-index: 1;
+    top:25vw;
+    left:12vw;
+}
+
+.imgSpiral{
+  
+    position: absolute;
+    top:30vw;
+
+    right:0;
+ 
+
+}
+
+.dot-nav, a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    vertical-align: baseline;
+    font-size:1.3vw;
+}
+
+
+.nav2{
+    text-align: center;
+    overflow: hidden;
+    margin:12em auto;
+    width:40vw;
+    position: relative;
+    bottom:22vw;   
+    left:28vw;
+}
+
+.nav2 a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10em 0 2.9em;
+    width:25%;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.nav2 a:hover{
+    color: tomato;
+
+}
+
+.effect{
+    position: absolute;
+    left:-12.5%;
+    transition: 0.7s ease-in-out;
+}
+
+.nav2 a:nth-child(1):hover ~ .effect{
+    left:12.5%;
+}
+
+.nav2 a:nth-child(2):hover ~ .effect{
+    left:37.5%;
+}
+
+.nav2 a:nth-child(3):hover ~ .effect{
+    left:62.5%;
+}
+.nav2 a:nth-child(4):hover ~ .effect{
+    left:87.5%;
+}
+
+.dot-nav::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 55%;
+    height:0.05vw; /*if i wanna remove the line this is the spot*/
+    background: tomato;
+    bottom: 3.2vw;
+}
+
+.dot-nav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:0.35vw;
+    height:0.35vw;
+    bottom:3vw;
+    left:50%;
+    margin-left: -0.1vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.dot-nav .effect{
+    width: 0.6vw;
+    height: 0.6vw;
+    bottom:2.9vw;
+    margin-left:-0.3vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.contact{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.2vw;
+    top: 89vw;
+    left:12.3vw;
+}
+
+.emailLink{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size:1.2vw;
+    top:90vw;
+    left:20vw;
+    padding-bottom: 4vw;
+}
+
+.emailLink:hover{
+    color:tomato;
+    text-decoration: none;
+}
+
+
+@media(min-width:20rem){
+    .about-para{
+       
+        width:35vw;
+        
+    }
+}
+
+@media(min-width:40rem){
+    .about-para{
+        width:43vw;
+    }
+}

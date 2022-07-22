@@ -1,0 +1,388 @@
+.imgSpiral{
+  
+    position: absolute;
+  
+    top:10vw;
+    left:3vw;
+    transform: scale(170%);
+    opacity: 15%;
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    margin:0;
+    overflow-x: hidden;
+}
+
+.header1{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    top:10vw;
+    left:20vw;
+    font-size:4.5vw;
+}
+
+.h2-sub{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    font-weight:300;
+    top:16vw;
+    left:20.5vw;
+    font-size:2vw;
+}
+.imgLogo{
+    position: absolute;
+
+    top:10vw;
+    left:12vw;
+
+}
+
+.imgPosthumanism{
+    position: relative;
+    z-index: 1;
+    top:25vw;
+    left:0; /*was 10 vw*/
+}
+
+.titles{
+   
+    font-family:  'Lato', sans-serif;
+    font-size:1.3vw;
+    padding-right: 0;
+    
+}
+
+.title1{
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    top:27vw;
+    left:46vw;
+}
+
+.title2{
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    top:30vw;
+    left:46vw;
+}
+
+.title3{
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    top:33vw;
+    left:46vw;
+}
+.title4{
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    top:36vw;
+    left:46vw;
+}
+
+.title2Sub{
+    position: absolute;
+    z-index: 1;
+   top:30vw;
+    left:52vw;
+}
+
+.title3Sub{
+    position: absolute;
+    z-index: 1;
+    top:33vw;
+    left:52vw;
+}
+
+
+.title4Sub{
+    position: absolute;
+    z-index: 1;
+    top:36vw;
+    left:52vw;
+}
+
+.projHeaders{
+    position: absolute;
+    left:12vw;
+    font-weight:700;
+    font-family: 'Lato', sans-serif;
+    font-size:2.5vw;
+}
+
+
+
+.dot-nav, a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    vertical-align: baseline;
+    font-size:1.3vw;
+}
+
+
+.nav2{
+    text-align: center;
+    overflow: hidden;
+    margin:12em auto;
+    width:40vw;
+    position: relative;
+    bottom:63vw;   
+    left:28vw;
+}
+
+.nav2 a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10em 0 2.9em;
+    width:25%;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.nav2 a:hover{
+    color: tomato;
+
+}
+
+.effect{
+    position: absolute;
+    left:-12.5%;
+    transition: 0.7s ease-in-out;
+}
+
+.nav2 a:nth-child(1):hover ~ .effect{
+    left:12.5%;
+}
+
+.nav2 a:nth-child(2):hover ~ .effect{
+    left:37.5%;
+}
+
+.nav2 a:nth-child(3):hover ~ .effect{
+    left:62.5%;
+}
+.nav2 a:nth-child(4):hover ~ .effect{
+    left:87.5%;
+}
+
+.dot-nav::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 55%;
+    height:0.05vw; /*if i wanna remove the line this is the spot*/
+    background: tomato;
+    bottom: 3.2vw;
+}
+
+.dot-nav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:0.35vw;
+    height:0.35vw;
+    bottom:3vw;
+    left:50%;
+    margin-left: -0.1vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.dot-nav .effect{
+    width: 0.6vw;
+    height: 0.6vw;
+    bottom:2.9vw;
+    margin-left:-0.3vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.goals{
+    top:65vw;
+   
+}
+
+.para1{
+    position: absolute;
+    white-space: pre-line;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2vw;
+    width:50vw;
+    top:71vw;
+    left:12vw;
+
+}
+
+.process{
+    top:87vw;
+}
+
+.para2{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2vw;
+    width:50vw;
+    top:93vw;
+    left:12vw;
+}
+
+.imgGrid{
+    position: absolute;
+    top:102vw;
+    left:12vw;
+}
+
+.figureCaption1{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:130vw;
+    left:22vw;
+}
+
+.para3{
+    position: absolute;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2vw;
+    width: 50vw;
+    top:133vw;
+    left:12vw;
+
+}
+
+.imgLanyard {
+    position: absolute;
+    top:144vw;
+    left:12vw;
+}
+
+.figureCaption2{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:172vw;
+    left:21vw;
+}
+
+.imgType{
+    position: absolute;
+    top:178vw;
+    left:12vw;
+}
+.figureCaption3{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:206vw;
+    left:23vw;
+}
+.para4{
+    position: absolute;
+    white-space: pre-line;
+
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2vw;
+    width: 50vw;
+    top:210vw;
+    left:12vw;
+
+}
+
+.imgTicket{
+    position: absolute;
+    left:12vw;
+    top:229vw;
+}
+
+.figureCaption4{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:257vw;
+    left:24vw;
+}
+
+.para5{
+    position: absolute;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2vw;
+    width: 50vw;
+    top:261vw;
+    left:12vw;
+
+}
+.challenges{
+    top:271vw;
+}
+
+.para6{
+    position: absolute;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2vw;
+    width: 50vw;
+    top:277vw;
+    left:12vw;
+    padding-bottom: 5vw;
+}
+
+@media(min-width:10rem){
+    .imgSpiral{
+        transform: scale(70%);
+        top:-16vw;
+        left:-23vw;
+    }
+    .para1{
+        width:45vw;
+    }
+    .para2{
+        width:45vw;
+    }
+    .para3{
+        width:45vw;
+    }
+    .para4{
+        width:45vw;
+    }
+    .para5{
+        width:45vw;
+    }
+  .para6{
+      width:45vw;
+  }
+}
+
+@media(min-width:40rem){
+    .imgSpiral{
+        transform: scale(160%);
+        top:10vw;
+        left:3vw;
+    }
+    .para1{
+        width:50vw;
+    }
+    .para2{
+        width:50vw;
+    }
+    .para3{
+        width:50vw;
+    }
+    .para4{
+        width:50vw;
+    }
+    .para5{
+        width:50vw;
+    }
+    .para6{
+        width:50vw;
+    }
+}

@@ -1,0 +1,224 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    margin:0;
+   
+}
+.h1-name{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    top:15vw;
+    left:35vw;
+    font-size:4.5vw;
+}
+.h2-sub{
+    position: absolute;
+    font-weight:300;
+    top:21.4vw;
+    left:35vw;
+    font-size:2vw;
+}
+
+.h3-title{
+    font-size: 1.1vw;
+    font-weight: 400;
+    position: absolute;
+    top:65vw;
+    left:17vw;
+    padding-bottom: 3vw;
+    text-decoration: none;
+    color:black;
+}
+.h3-title:hover{
+   
+    text-decoration: underline;
+    
+}
+
+.h3-title2{
+    font-size:1.1vw;
+    font-weight: 400;
+    position: absolute;
+    top:65vw;
+    left:57vw;
+    padding-bottom: 3vw;
+    text-decoration: none;
+    color:black;
+}
+
+.h3-title2:hover{
+    text-decoration: underline;
+}
+
+
+.test{
+    position: absolute;
+    top:20vw;
+    left:10vw;
+}
+
+
+.imgSpiral{
+  
+    position: absolute;
+    top:10vw;
+    left:3vw;
+    transform: scale(170%);
+    opacity: 15%;
+}
+
+.imgLogo{
+    position:absolute;
+    top:10vw;
+    left:20.3vw;
+}
+
+.main-nav{
+
+    position: absolute;
+    top:5vw;
+    left:73vw;
+    
+}
+.main-nav a{
+    font-size:1vw;
+    margin-left: 1vw;
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a:hover{
+    color: peachpuff;
+}
+
+.imgCura{
+    position: absolute;
+    top:40vw;
+    left:15vw;
+   
+  width:30vw;
+    
+    
+    
+}
+.imgCura:hover{
+    filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
+   
+}
+
+.imgProject2{
+    position: absolute;
+    top:40vw;
+    left:55vw;
+    width:30vw;
+    
+}
+
+.imgProject2:hover{
+    filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
+}
+
+/*Test navigation*/
+.dot-nav, a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    vertical-align: baseline;
+    font-size:1.3vw;
+}
+
+.nav2{
+    text-align: center;
+    overflow: hidden;
+    margin:12em auto;
+    width:40vw;
+    position: relative;
+    left:6vw;
+}
+
+.nav2 a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10em 0 2.9em;
+    width:25%;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.nav2 a:hover{
+    color: tomato;
+
+}
+
+.effect{
+    position: absolute;
+    left:-12.5%;
+    transition: 0.7s ease-in-out;
+}
+
+.nav2 a:nth-child(1):hover ~ .effect{
+    left:12.5%;
+}
+
+.nav2 a:nth-child(2):hover ~ .effect{
+    left:37.5%;
+}
+
+.nav2 a:nth-child(3):hover ~ .effect{
+    left:62.5%;
+}
+.nav2 a:nth-child(4):hover ~ .effect{
+    left:87.5%;
+}
+
+.dot-nav::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 62%;
+    height:0.05vw; /*if i wanna remove the line this is the spot*/
+    background: tomato;
+    bottom: 3.2vw;
+}
+
+.dot-nav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:0.35vw;
+    height:0.35vw;
+    bottom:3vw;
+    left:50%;
+    margin-left: -0.1vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.dot-nav .effect{
+    width: 0.6vw;
+    height: 0.6vw;
+    bottom:2.9vw;
+    margin-left:-0.3vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+@media(min-width:20rem){
+    .imgSpiral{
+        transform: scale(70%);
+        top:-16vw;
+        left:-23vw;
+    }
+}
+
+@media(min-width:40rem){
+    .imgSpiral{
+        transform: scale(160%);
+        top:10vw;
+        left:3vw;
+    }
+}
