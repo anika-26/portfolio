@@ -46,10 +46,24 @@ body{
     text-decoration: none;
     color:black;
 }
+.h3-title3{
+    font-size:1.1vw;
+    font-weight: 400;
+    position: absolute;
+    top:93vw;
+    left:17vw;
+    padding-bottom: 3vw;
+    text-decoration: none;
+    color:black;
+}
 
 .h3-title2:hover{
     text-decoration: underline;
 }
+.h3-title3:hover{
+    text-decoration: underline;
+}
+
 
 
 .test{
@@ -116,6 +130,16 @@ body{
 }
 
 .imgProject2:hover{
+    filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
+}
+
+.imgSlimeQuest{
+    position: absolute;
+    top:70vw;
+    left:15vw;
+    width:30vw;
+}
+.imgSlimeQuest:hover{
     filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
 }
 
