@@ -322,7 +322,31 @@
 
 }
 .challenges{
-    top:266vw;
+    top:304vw;
+}
+
+.para7{
+    position: absolute;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2vw;
+    width: 50vw;
+    top:310vw;
+    left:12vw;
+    padding-bottom: 5vw;
+}
+
+.imgRiddle{
+    position:absolute;
+    left:12vw;
+    top:268vw;
+}
+
+.figureCaption5{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:294vw;
+    left:25vw;
 }
 
 .para6{
@@ -330,7 +354,7 @@
     font-family: 'Lato',sans-serif;
     font-size: 1.2vw;
     width: 50vw;
-    top:273vw;
+    top:298vw;
     left:12vw;
     padding-bottom: 5vw;
 }
