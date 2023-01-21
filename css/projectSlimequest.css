@@ -86,6 +86,14 @@
     left:46vw;
 }
 
+.title5{
+    font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    top:39vw;
+    left:46vw;
+}
+
 .title2Sub{
     position: absolute;
     z-index: 1;
@@ -105,6 +113,13 @@
     position: absolute;
     z-index: 1;
     top:36vw;
+    left:52vw;
+}
+
+.title5Sub{
+    position: absolute;
+    z-index: 1;
+    top:40.2vw;
     left:52vw;
 }
 
@@ -236,7 +251,7 @@
     left:12vw;
 }
 
-.imgGrid{
+.imgFigjam{
     position: absolute;
     top:102vw;
     left:12vw;
@@ -260,7 +275,7 @@
 
 }
 
-.imgLanyard {
+.imgStickynotes {
     position: absolute;
     top:136vw;
     left:12vw;
@@ -274,7 +289,7 @@
     left:21vw;
 }
 
-.imgType{
+.imgCaveLayout{
     position: absolute;
     top:177vw;
     left:12vw;
@@ -298,7 +313,7 @@
 
 }
 
-.imgTicket{
+.imgCavelvl{
     position: absolute;
     left:12vw;
     top:227vw;
@@ -355,6 +370,29 @@
     font-size: 1.2vw;
     width: 50vw;
     top:298vw;
+    left:12vw;
+    padding-bottom: 5vw;
+}
+
+.imgCode{
+    position:absolute;
+    left:12vw;
+    top:313vw;
+}
+.figureCaption6{
+    font-family:'Lato', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:386vw;
+    left:25vw;
+}
+.para7{
+    position: absolute;
+    white-space: pre-line;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.2vw;
+    width: 50vw;
+    top:390vw;
     left:12vw;
     padding-bottom: 5vw;
 }
