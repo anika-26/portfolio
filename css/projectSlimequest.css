@@ -121,6 +121,8 @@
     z-index: 1;
     top:40.2vw;
     left:52vw;
+    text-decoration: none;
+    color:black;
 }
 
 .projHeaders{
