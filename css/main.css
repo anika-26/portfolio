@@ -33,7 +33,7 @@ body{
 .h3-title:hover{
    
     text-decoration: underline;
-    
+    color: tomato;
 }
 
 .h3-title2{
@@ -59,9 +59,11 @@ body{
 
 .h3-title2:hover{
     text-decoration: underline;
+    color: tomato;
 }
 .h3-title3:hover{
     text-decoration: underline;
+    color: tomato;
 }
 
 

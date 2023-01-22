@@ -125,6 +125,11 @@
     color:black;
 }
 
+.title5Sub:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
 .projHeaders{
     position: absolute;
     left:12vw;
