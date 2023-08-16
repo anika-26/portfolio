@@ -9,14 +9,14 @@
 }
 
 .body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     margin:0;
 }
 
 .header1{
     position: absolute;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     top:10vw;
     left:20vw;
@@ -24,7 +24,7 @@
 }
 
 .h2-sub{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     font-weight:300;
     top:16vw;
