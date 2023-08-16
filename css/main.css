@@ -16,7 +16,7 @@ body{
     font-family: 'Poppins', sans-serif;
     position: absolute;
     font-weight:200;
-    top:21.4vw;
+    top:22.5vw;
     left:35vw;
     font-size:1.5vw;
 }
@@ -159,7 +159,7 @@ body{
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
     font-size:1.3vw;
 }
