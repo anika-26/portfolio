@@ -17,7 +17,7 @@
 
 .header1{
     position: absolute;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Caveat', cursive;
     font-weight: 700;
     top:10vw;
     left:20vw;
@@ -27,10 +27,10 @@
 .h2-sub{
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    font-weight:300;
-    top:16vw;
+    font-weight:200;
+    top:17vw;
     left:20.5vw;
-    font-size:2vw;
+    font-size:1.5vw;
 }
 .imgLogo{
     position: absolute;
