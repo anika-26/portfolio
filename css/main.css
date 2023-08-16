@@ -1,12 +1,12 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: white;
     margin:0;
    
 }
 .h1-name{
     position: absolute;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Caveat', cursive;
     font-weight: 700;
     top:15vw;
     left:35vw;
