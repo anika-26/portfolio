@@ -124,12 +124,20 @@ body{
    
 }
 
+/*
 .imgProject2{
     position: absolute;
     top:40vw;
     left:55vw;
     width:30vw;
     
+}
+*/
+.imgProject2{
+    position: absolute;
+    top:40vw;
+    left:40vw;
+    width:15vw;
 }
 
 .imgProject2:hover{
