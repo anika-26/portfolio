@@ -10,14 +10,15 @@ body{
     font-weight: 700;
     top:15vw;
     left:35vw;
-    font-size:4.6vw;
+    font-size:4.8vw;
 }
 .h2-sub{
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     font-weight:200;
     top:21.4vw;
     left:35vw;
-    font-size:2vw;
+    font-size:1.5vw;
 }
 
 .h3-title{
