@@ -150,9 +150,14 @@ body{
     left:65vw;
     width:20vw;
 }
+
+
+/*
 .imgSlimeQuest:hover{
+    
     filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
 }
+*/
 
 /*Test navigation*/
 .dot-nav, a{
