@@ -428,6 +428,9 @@
   .para6{
       width:45vw;
   }
+  .para7{
+    width:45vw;
+  }
 }
 
 @media(min-width:40rem){
@@ -452,6 +455,9 @@
         width:50vw;
     }
     .para6{
+        width:50vw;
+    }
+    .para7{
         width:50vw;
     }
 }
