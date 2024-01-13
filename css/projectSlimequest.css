@@ -390,7 +390,7 @@
     font-family:'Lato', sans-serif;
     font-size:1vw;
     position:absolute;
-    top:386vw;
+    top:385vw;
     left:25vw;
 }
 .para7{
@@ -399,9 +399,9 @@
     font-family: 'Lato',sans-serif;
     font-size: 1.2vw;
     width: 50vw;
-    top:390vw;
+    top:385vw;
     left:12vw;
-    padding-bottom: 5vw;
+    
 }
 
 @media(min-width:10rem){
