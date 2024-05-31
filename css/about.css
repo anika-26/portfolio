@@ -2,10 +2,10 @@
     white-space: pre-line;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top:58vw;
-    width:40vw;
+    top:24vw;
+    
     left:12vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
     padding-bottom: 2.5vw;
 }
 
@@ -34,8 +34,8 @@
 .imgAbout{
     position: absolute;
     z-index: 1;
-    top:25vw;
-    left:12vw;
+    top:27vw;
+    left:47vw;
 }
 
 .imgSpiral{
@@ -141,24 +141,31 @@
     position: absolute;
     font-family: 'Lato', sans-serif;
     font-weight:700;
-    font-size:1.2vw;
-    top: 80vw;
-    left:12.3vw;
+    font-size:1vw;
+    top: 46vw;
+    left:12vw;
 }
 
 .emailLink{
     position: absolute;
     font-family: 'Lato', sans-serif;
     color: black;
-    font-size:1.2vw;
-    top:81vw;
-    left:20vw;
+    font-size:1vw;
+    top:46.8vw;
+    left:18.5vw;
     padding-bottom: 4vw;
 }
 
 .emailLink:hover{
     color:tomato;
     text-decoration: none;
+}
+
+.watercolourBorder{
+    position: absolute;
+    top:17vw;
+    right:0.05vw;
+    overflow: hidden;
 }
 
 
