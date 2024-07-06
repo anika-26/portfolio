@@ -144,9 +144,9 @@
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     vertical-align: baseline;
-    font-size:1.3vw;
+    font-size:1vw;
 }
 
 
@@ -155,16 +155,16 @@
     overflow: hidden;
     margin:12em auto;
     width:40vw;
-    position: relative;
-    bottom: 54vw;   
-    left:28vw;
+    position: absolute;
+    bottom:25vw;   
+    left:63vw;
 }
 
 .nav2 a{
     display: block;
     position: relative;
     float: left;
-    padding: 10em 0 2.9em;
+    padding: 10em 0 4em;
     width:25%;
     text-decoration: none;
     color: black;

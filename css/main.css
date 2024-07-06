@@ -189,9 +189,9 @@ transition: 1s ease;
     overflow: hidden;
     margin:12em auto;
     width:40vw;
-    position: relative;
-    bottom:18vw;   
-    left:34vw;
+    position: absolute;
+    bottom:25vw;   
+    left:63vw;
 }
 
 .nav2 a{
