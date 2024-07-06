@@ -247,6 +247,13 @@ body{
     border-radius: 100%;
 }
 
+.watercolourBorder{
+    position: absolute;
+    top:14vw;
+    right:0.05vw;
+    overflow: hidden;
+}
+
 @media(min-width:20rem){
     .imgSpiral{
         transform: scale(70%);
