@@ -204,7 +204,7 @@ body{
     border:0;
     font-family: 'Lato', sans-serif;
     vertical-align: baseline;
-    font-size:1.3vw;
+    font-size:1vw;
 }
 
 
@@ -214,7 +214,7 @@ body{
     margin:12em auto;
     width:40vw;
     position: relative;
-    bottom:20vw;   
+    bottom:18vw;   
     left:34vw;
 }
 
@@ -222,7 +222,7 @@ body{
     display: block;
     position: relative;
     float: left;
-    padding: 10em 0 2.9em;
+    padding: 10em 0 4em;
     width:25%;
     text-decoration: none;
     color: black;
