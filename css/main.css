@@ -21,20 +21,64 @@ body{
     font-size:1.5vw;
 }
 
-.h3-title{
+.h3{
     font-size: 1.1vw;
     font-weight: 400;
     position: absolute;
-    top:57vw;
-    left:15vw;
     padding-bottom: 3vw;
     text-decoration: none;
     color:black;
 }
-.h3-title:hover{
+
+.h3:hover{
    
     text-decoration: underline;
     color: tomato;
+}
+
+.thumbnailTitle{
+    top:48.5vw;
+    left:18vw;
+}
+
+.thumbnailTitle2{
+    top:48.5vw;
+    left:43vw;
+}
+
+.thumbnailTitle3{
+    top:48.5vw;
+    left:68vw;
+}
+
+.thumbnailTitle4{
+    top:67.5vw;
+    left:19vw;
+}
+
+.thumbnailTitle5{
+    top:67.5vw;
+    left:43vw;
+}
+
+.thumbnailTitle6{
+    top:67.5vw;
+    left:70vw;
+}
+
+
+
+
+
+.h3-title{
+    font-size: 1.1vw;
+    font-weight: 400;
+    position: absolute;
+    top:48.5vw;
+    left:18vw;
+    padding-bottom: 3vw;
+    text-decoration: none;
+    color:black;
 }
 
 .h3-title2{
@@ -109,65 +153,60 @@ body{
     color: peachpuff;
 }
 
-.imgCura{
-    position: absolute;
-    top:40vw;
+.imgGuacamole{
+    position:absolute;
+    top:33vw;
     left:15vw;
-  width:20vw;
-
-    
-}
-.imgCura:hover{
-    filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
-   
+    width:20vw;
 }
 
-/*
-.imgProject2{
-    position: absolute;
-    top:40vw;
-    left:55vw;
-    width:30vw;
-    
-}
-*/
-.imgProject2{
-    position: absolute;
-    top:40vw;
+.imgMouJam{
+    position:absolute;
+    top:33vw;
     left:40vw;
     width:20vw;
 }
 
+.imgPosthumanism{
+    position:absolute;
+    top:33vw;
+    left:65vw;
+    width:20vw;
+}
 
+.imgTimber{
+    position:absolute;
+    top:52vw;
+    left:15vw;
+    width:20vw;
+}
 
-.imgProject2:hover{
-    filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
+.imgCura{
+    position:absolute;
+    top:53vw;
+    left:40vw;
+    width:20vw;
 }
 
 .imgSlimeQuest{
-    position: absolute;
-    top:40vw;
+    position:absolute;
+    top:52vw;
     left:65vw;
     width:20vw;
 }
 
 
-/*
-.imgSlimeQuest:hover{
-    
-    filter: drop-shadow(0.4vw 0.4vw 0.6vw grey);
-}
-*/
 
 /*Test navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     vertical-align: baseline;
     font-size:1.3vw;
 }
+
 
 .nav2{
     text-align: center;
@@ -175,7 +214,8 @@ body{
     margin:12em auto;
     width:40vw;
     position: relative;
-    left:6vw;
+    bottom:20vw;   
+    left:34vw;
 }
 
 .nav2 a{
@@ -219,7 +259,7 @@ body{
     content: "";
     display: block;
     position: absolute;
-    width: 62%;
+    width: 55%;
     height:0.05vw; /*if i wanna remove the line this is the spot*/
     background: tomato;
     bottom: 3.2vw;
