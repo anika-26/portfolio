@@ -289,7 +289,7 @@ body{
 
 .watercolourBorder{
     position: absolute;
-    top:14vw;
+    top:11vw;
     right:0.05vw;
     overflow: hidden;
 }
@@ -304,8 +304,8 @@ body{
 
 @media(min-width:40rem){
     .imgSpiral{
-        transform: scale(160%);
-        top:10vw;
-        left:3vw;
+        transform: scale(130%);
+        top:4vw;
+        left:-12vw;
     }
 }
