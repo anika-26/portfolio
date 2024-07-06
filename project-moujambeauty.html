@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Cura</title>
+        <link href="css/projectMoujambeauty.css" rel="stylesheet"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+
+        
+        <h1 class="header1">Mou Jam Beauty Salon (WIP)</h1>
+
+        <img src="images/spiral_image.png" class="imgSpiral" style="max-width:100%; height:auto" alt="graphic of spiral drawing in background" >
+
+        <img src="images/Logo.png" class="imgLogo" style=" max-width: 9%; height:auto" alt="image of logo with signature">
+
+        <h2 class="h2-sub">Android Mobile Application</h2>
+
+        <img src="images/cura_home.png" class="imgCuraHome" style="max-width: 20%;height:auto" alt="image of mobile app home screen">
+
+        <p class="title1 titles">Individual Academic Project</p>
+        <p class="title2 titles">Role:</p>
+        <p class="title3 titles">Tools:</p>
+        <p class="title2Sub titles">Creator - Computer Programming & Design</p>
+        <p class="title3Sub titles">Android Studio - Java & XML</p>
+        <p class="title4 titles">Date:</p>
+        <p class="title4Sub titles">Fall 2021</p>
+
+        <h3 class="goals projHeaders">Design Goals</h3>
+
+        <p class="para1">
+            Cura was created for a mobile computing class with the objective of creating an Android application, which would explore different functionalities, design patterns, UI design, sensor interaction and hardware features.
+            
+            I chose to create an application, Cura, that would act as a personal companion, and provide them with functionality to create location-based reminders, to-do lists, and receive personal alerts based on weather conditions and users actions. It was intended to make tasks more efficient by providing these functionalities in one app, and to simulate the feeling of a caregiver as not everyone has someone to remind them of little tasks and self care.</p>
+
+        <h3 class="process projHeaders">Process</h3>
+
+        <p class="para2">
+            To begin, I used a tablet to sketch the intended navigation for my application in figure 1. From here I could code the layout of each screen, and add basic functionality to move throughout the app. I then split up the remaining functionalities into individual problems to tackle.
+        </p>
+
+        <img src="images/sketch1.png" class="imgSketch1" style="max-width: 50%; height: auto;" alt="image of sketches of potential app user flow and layout">
+        <img src="images/sketch2.png" class="imgSketch2" style="max-width: 50%; height: auto;" alt="image of potential designs for several app screens">
+        <p class="figureCaption1">Figure 1: Sketch of layout and navigation of the application</p>
+        <p class="figureCaption2">Figure 2: Sketch for the layout of the home screen and reminder interfaces</p>
+
+        <p class="para3">
+            One of the more interesting functions I created was location-based reminders, which is sketched out in figure 2 To accomplish this, I created an interface with buttons for the user to create a new reminder with a task name, and a button to choose a location, shown in Figure 3 and 4.
+        </p>
+     
+        <img src="images/cura_reminder.png" class="imgCuraRem" style="max-width: 16.1%; height:auto" alt="image of first screen for process of adding reminders in the app">
+        <img src="images/cura_reminder_2.png" class="imgCuraRem2" style="max-width: 16%; height: auto;" alt="image of screen for process of adding reminders in the app">
+        <img src="images/cura_map.png" class="imgCuraMap" style="max-width: 16.8%; height: auto;" alt="image map to choose location for the reminder">
+
+        <p class="figureCaption3">Figure 3: Screen to add a new reminder</p>
+        <p class="figureCaption4">Figure 4: Screen where the user can fill in details of reminder</p>
+        <p class="figureCaption5">Figure 5: Screen where the user can search for their reminder's location</p>
+
+        <img src="images/code.png" class="imgCode" style="max-width: 55%;height: auto;" alt="image of snipet of code showing how location difference was calculated">
+        <p class="figureCaption6">Figure 6: Screenshot of section of Java code in Android Studio used to compare the user's location to the location of the reminder</p>
+
+
+        <p class="para4">Next as shown in figure 5 I used a google API (allows a program to use the features or data of another) to display a map where the user could search a location and save it. Finally, I figured out how to calculate the distance between two locations to send the user a notification when they were close.</p>
+
+        <h3 class="challenges projHeaders">Challenges and Reflection</h3>
+
+        <p class="para5">
+            A particular challenge I faced in the creation of Cura was based around checking the users current location and how it compared to the location of their reminder. The method I originally used to accomplish this task was part of the challenge, for it was more complicated than necessary. Exploring more efficient methods through resources on the internet with similar functionalities was essential to overcoming this, which is illustrated in figure 6. I found temporarily separating this functionality from the rest of my app was a very effective means to test these different solutions, for it enabled me to work unhindered by other parts.
+
+            Throughout the creation of this application, I learned the basics of Android development with the programming languages Java and XML, how to use APIs, and different methods to store and retrieve data in an app.</p>
+
+            <div class="dot-nav nav2">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <div class="effect"></div>
+            </div>
+    </body>
+</html>
