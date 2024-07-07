@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Cura</title>
+        <title>Anika Richards</title>
         <link href="css/projectGuacamole.css" rel="stylesheet"
         >
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
     <body>
 
         
-        <h1 class="header1">Guacamole Mexican Grill (WIP)</h1>
+        <h1 class="header1">Guacamole Mexican Grill</h1>
 
         <img src="images/spiral_image.png" class="imgSpiral" style="max-width:100%; height:auto" alt="graphic of spiral drawing in background" >
 
@@ -45,38 +45,49 @@
         <h3 class="process projHeaders">Process</h3>
 
         <p class="para2">
-            To begin, I used a tablet to sketch the intended navigation for my application in figure 1. From here I could code the layout of each screen, and add basic functionality to move throughout the app. I then split up the remaining functionalities into individual problems to tackle.
+            Within my team’s initial meeting with Guacamole Mexican Grill we discussed the previous website in detail to check what aspects they’d to carry over and information that would require updates. we also discussed menu changes at the same, as we wanted to ensure that my coworker and I kept with a similar branding between the two designs to ensure cohesive designs. 
+
+            From this initial meeting, we took several images of the restaurant’s interior for inspiration, especially from their signature mural they had contracted be painted named, “Katrina.” Since this was such a focal point within the restaurant's image I wanted to incorporate it within the website. This can be seen in the figure below (figure 1) I also determined a baseline for a colour scheme using light and bright colours, compared to the dark colour scheme they had on their current website. This was inspired from the bright interior (figure 1 & 2) - with white walls and bright colours within the mural. 
+
+
         </p>
 
-        <img src="images/sketch1.png" class="imgSketch1" style="max-width: 50%; height: auto;" alt="image of sketches of potential app user flow and layout">
-        <img src="images/sketch2.png" class="imgSketch2" style="max-width: 50%; height: auto;" alt="image of potential designs for several app screens">
-        <p class="figureCaption1">Figure 1: Sketch of layout and navigation of the application</p>
-        <p class="figureCaption2">Figure 2: Sketch for the layout of the home screen and reminder interfaces</p>
+        <img src="images/restaurant.png" class="img1" style="max-width: 50%; height: auto;" alt="">
+        <img src="images/restaurant2.png" class="img2" style="max-width: 50%; height: auto;" alt="">
+        <p class="figureCaption1">Figure 1: Photograph of restaurant interior</p>
+        <p class="figureCaption2">Figure 2: Photograph of Restaurant Interior</p>
+
+        <h3 class="initialPrototypes projHeaders">Initial Prototypes</h3>
 
         <p class="para3">
-            One of the more interesting functions I created was location-based reminders, which is sketched out in figure 2 To accomplish this, I created an interface with buttons for the user to create a new reminder with a task name, and a button to choose a location, shown in Figure 3 and 4.
+            My next step was to start by reviewing their old branding documents which included typefaces, and colour schemes shown below in figure 3. From this branding document I utilized their main font for the header that is shown in the prototype below. It was very bold and striking font, and was the same font used in their logo so I wanted to keep the consistency here. 
+
+            My coworker, Meera, created a vectored version of Guacamole Mexican Grill’s mural “Katarina”, which I then used to create an eye-catching header, with the flower trails for accents. I experimented with various placements of their slogan, header text and background colours for the headers, before bringing these mock-ups to a meeting with the owners to discuss. 
         </p>
      
-        <img src="images/cura_reminder.png" class="imgCuraRem" style="max-width: 16.1%; height:auto" alt="image of first screen for process of adding reminders in the app">
-        <img src="images/cura_reminder_2.png" class="imgCuraRem2" style="max-width: 16%; height: auto;" alt="image of screen for process of adding reminders in the app">
-        <img src="images/cura_map.png" class="imgCuraMap" style="max-width: 16.8%; height: auto;" alt="image map to choose location for the reminder">
-
-        <p class="figureCaption3">Figure 3: Screen to add a new reminder</p>
-        <p class="figureCaption4">Figure 4: Screen where the user can fill in details of reminder</p>
-        <p class="figureCaption5">Figure 5: Screen where the user can search for their reminder's location</p>
-
-        <img src="images/code.png" class="imgCode" style="max-width: 55%;height: auto;" alt="image of snipet of code showing how location difference was calculated">
-        <p class="figureCaption6">Figure 6: Screenshot of section of Java code in Android Studio used to compare the user's location to the location of the reminder</p>
+        <img src="images/guacColour.png" class="img3" style="max-width: 30%; height:auto" alt="">
+        <img src="images/guacmockup.png" class="img4" style="max-width: 25%; height: auto;" alt="">
+        <img src="images/guacmockup2.png" class="img5" style="max-width: 25%; height: auto;" alt="">
+        <img src="images/guacmockup3.png" class="img6" style="max-width: 25%; height: auto;" alt="">
 
 
-        <p class="para4">Next as shown in figure 5 I used a google API (allows a program to use the features or data of another) to display a map where the user could search a location and save it. Finally, I figured out how to calculate the distance between two locations to send the user a notification when they were close.</p>
+        <p class="figureCaption3">Figure 3: Screenshot of Guacamole's original colour scheme</p>
+        <p class="figureCaption4">Figure 4: Prototype of landing page</p>
+        <p class="figureCaption5">Figure 5: Prototype of landing page</p>
+        <p class="figureCaption6">Figure 6: Prototype of landing page</p>
+
+        <p class="para4">Upon discussing these prototypes with my client I determined their preference for particular assets and styles such as the header style in figure 4. They also particularly liked the green background, as they felt the yellow backgrounds (along with some other experimented colours) was not quite on brand. With some adjustments to the specific green, and placement of components I ended up with the final design shown below. Due to the addition of additional information displayed on the homepage, the map was shifted to the bottom. </p>
+
+        <img src="images/guacFinal.png" class="img7" style="max-width: 50%;height: auto;" alt="">
+        
+        <p class="figureCaption7">Figure 7: Screenshot of final implemented design on WordPress</p>
 
         <h3 class="challenges projHeaders">Challenges and Reflection</h3>
 
         <p class="para5">
-            A particular challenge I faced in the creation of Cura was based around checking the users current location and how it compared to the location of their reminder. The method I originally used to accomplish this task was part of the challenge, for it was more complicated than necessary. Exploring more efficient methods through resources on the internet with similar functionalities was essential to overcoming this, which is illustrated in figure 6. I found temporarily separating this functionality from the rest of my app was a very effective means to test these different solutions, for it enabled me to work unhindered by other parts.
+            Working with a local business as a client one on one was an incredible experience. One of the most challenging aspects of client based work I found was communication, and ensuring that the new branding was consistent with  their in store branding but would still translate to a digital platform. For example there were some challenges in finding the exact green they wanted, that retained the same appearance as the green of their branding, but would look good digitally. Having consistent check in’s with my client and creating many different mock-ups really helped to overcome these challenges and ensure I created a website that captured their restaurant and vision.  
 
-            Throughout the creation of this application, I learned the basics of Android development with the programming languages Java and XML, how to use APIs, and different methods to store and retrieve data in an app.</p>
+            In conclusion this project helped me to develop and strengthen my skills in communication, website design, WordPress and client based work. It was an incredible opportunity. </p>
 
             <div class="dot-nav nav2">
                 <a href="index.html">Home</a>

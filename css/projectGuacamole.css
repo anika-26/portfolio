@@ -12,6 +12,8 @@
     font-family: 'Poppins', sans-serif;
     background-color: white;
     margin:0;
+    font-size: 1vw;
+    white-space: pre-line;
 }
 
 .header1{
@@ -40,7 +42,7 @@
     
 }
 .main-nav a{
-    font-family:  'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:1vw;
     margin-left: 1vw;
     text-decoration: none;
@@ -56,16 +58,15 @@
 }
 
 .imgGuacamole{
-    position: relative;
-   z-index: 1;
+    position: absolute;
     left:6vw;
-    bottom:-26vw;
+    top:28vw;
 }
 
 .titles{
     font-size:1.3vw;
   
-    font-family:  'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     
 }
@@ -92,13 +93,13 @@
 .title2Sub{
     
     top:32vw;
-    left:48vw;
+    left:48.5vw;
 }
 
 .title3Sub{
    
     top:35vw;
-    left:48vw;
+    left:48.5vw;
 }
 
 .title4{
@@ -110,7 +111,7 @@
 .title4Sub{
    
     top:38vw;
-    left:48vw;
+    left:48.5vw;
 }
 
 .title5{
@@ -121,7 +122,7 @@
 .title5Sub{
 
     top:42.3vw;
-    left:48vw;
+    left:48.5vw;
     text-decoration: none;
     color:black;
 }
@@ -132,168 +133,182 @@
 }
 
 .goals{
-    top:65vw;
-    font-family:  'Lato', sans-serif;
+
+    top:57vw;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
-}
-
-.para1{
-    position: absolute;
-    font-size:1.2vw;
-    white-space: pre-line;
-
-    font-family: 'Lato',sans-serif;
-    top:69vw;
-    left:12vw;
-    width:50vw;
-
 }
 
 .process{
-    top:87vw;
-    font-family:  'Lato', sans-serif;
+    top:82vw;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
 }
-.para2{
+.initialPrototypes{
+    top:143vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.challenges{
+    top:258vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+.para1{
     position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:93vw;
+    font-family: 'Poppins', sans-serif;
+    white-space: pre-line;
+    top:61vw;
     left:12vw;
     width:50vw;
 
 }
 
-.imgSketch1{
+.para2{
     position: absolute;
-    top:100vw;
-    left:10vw;
-}
-
-.imgSketch2{
-    position: absolute;
-    top:140vw;
-    left:11vw;
-}
-
-.figureCaption1{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:133vw;
+    font-family: 'Poppins', sans-serif;
+    white-space: pre-line;
+    top:86vw;
     left:12vw;
-}
+    width:50vw;
 
-.figureCaption2{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:156vw;
-    left:12vw;
 }
 
 .para3{
     position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:160vw;
+    font-family: 'Poppins', sans-serif;
+    top:149vw;
     left:12vw;
     width:50vw;
-}
-
-.imgCuraRem{
-    position: absolute;
-    top:169vw;
-    left:12vw;
-}
-
-.imgCuraRem2{
-    position: absolute;
-    top:169vw;
-    left:30vw;
-}
-
-.imgCuraMap{
-    position: absolute;
-    top:169vw;
-    left:48vw;
-}
-
-.figureCaption3{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:201vw;
-    left:13vw;
-    width:13vw;
-    text-align: center;
-}
-
-.figureCaption4{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:201vw;
-    left:31vw;
-    width:13vw;
-    text-align: center;
-}
-
-.figureCaption5{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:201vw;
-    left:49vw;
-    width:13vw;
-    text-align: center;
-}
-
-.imgCode{
-    position: absolute;
-    top:220vw;
-    left:10vw;
 }
 
 .para4{
     position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:208vw;
+    font-family: 'Poppins', sans-serif;
+    top:210vw;
     left:12vw;
     width:50vw;
 }
 
-.figureCaption6{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:260vw;
-    left:16vw;
-    width:40vw;
-    text-align: center;
-}
-
-.challenges{
-    top:264vw;
-    font-family:  'Lato', sans-serif;
-    font-weight: 700;
-    font-size:2.5vw;
-}
 
 .para5{
     position: absolute;
-    font-size:1.2vw;
+
     white-space: pre-line;
 
-    font-family: 'Lato',sans-serif;
-    top:269vw;
+    font-family: 'Poppins', sans-serif;
+    top:263vw;
     left:12vw;
     width:50vw; 
     padding-bottom:5vw;
 }
+
+
+
+.img1{
+    position: absolute;
+    top:113vw;
+    left:12vw;
+}
+
+.img2{
+    position: absolute;
+    top:113vw;
+    left:55vw;
+}
+
+.img3{
+    position: absolute;
+    top:150.5vw;
+    left:61vw;
+}
+
+.img4{
+    position: absolute;
+    top:171vw;
+    left:12vw;
+}
+.img5{
+    position: absolute;
+    top:171vw;
+    left:38vw;
+}
+.img6{
+    position: absolute;
+    top:171vw;
+    left:64vw;
+}
+
+.img7{
+    position: absolute;
+    top:225vw;
+    left:12vw;
+}
+.figureCaption1{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:141.5vw;
+    left:22vw;
+}
+
+.figureCaption2{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:141.5vw;
+    left:65vw;
+}
+
+.figureCaption3{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:165vw;
+    left:63vw;
+
+}
+
+.figureCaption4{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:206vw;
+    left:17vw;
+    
+}
+
+.figureCaption5{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:206vw;
+    left:43vw;
+    
+}
+
+.figureCaption6{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:206vw;
+    left:69vw;
+    
+}
+.figureCaption7{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:257vw;
+    left:23vw;
+    
+}
+
 
 .dot-nav, a{
     margin:0;
@@ -415,18 +430,18 @@
         left:3vw;
     }
     .para1{
-        width:50vw;
+        width:43vw;
     }
     .para2{
-        width:50vw;
+        width:43vw;
     }
     .para3{
-        width:50vw;
+        width:43vw;
     }
     .para4{
-        width:50vw;
+        width:43vw;
     }
     .para5{
-        width:50vw;
+        width:43vw;
     }
 }
