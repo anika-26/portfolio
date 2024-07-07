@@ -55,63 +55,75 @@
 
 }
 
-.imgCuraHome{
+.imgGuacamole{
     position: relative;
    z-index: 1;
-    left:10vw;
+    left:6vw;
     bottom:-26vw;
 }
 
 .titles{
     font-size:1.3vw;
+  
     font-family:  'Lato', sans-serif;
+    position: absolute;
     
 }
 
 .title1{
-    font-weight: 700;
-    position: absolute;
     top:29vw;
-    left:32vw;
+    left:44vw;
+    font-weight: 700;
 }
 
 .title2{
     font-weight: 700;
-    position: absolute;
     top:32vw;
-    left:32vw;
+    left:44vw;
 }
 
 .title3{
     font-weight: 700;
-    position: absolute;
     top:35vw;
-    left:32vw;
+    left:44vw;
 }
 
+
 .title2Sub{
-    position: absolute;
+    
     top:32vw;
-    left:37vw;
+    left:48vw;
 }
 
 .title3Sub{
-    position: absolute;
+   
     top:35vw;
-    left:37vw;
+    left:48vw;
 }
 
 .title4{
     font-weight: 700;
-    position: absolute;
     top:38vw;
-    left:32vw;
+    left:44vw;
 }
 
 .title4Sub{
-    position: absolute;
+   
     top:38vw;
-    left:37vw;
+    left:48vw;
+}
+
+.title5{
+    font-weight: 700;
+    top:41vw;
+    left:44vw;
+}
+.title5Sub{
+
+    top:42.3vw;
+    left:48vw;
+    text-decoration: none;
+    color:black;
 }
 
 .projHeaders{
