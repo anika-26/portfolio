@@ -116,94 +116,7 @@
     font-size:2.5vw;
 }
 
-.dot-nav, a{
-    margin:0;
-    padding:0;
-    border:0;
-    font-family: 'Lato', sans-serif;
-    vertical-align: baseline;
-    font-size:1vw;
-}
 
-
-.nav2{
-    text-align: center;
-    overflow: hidden;
-    margin:12em auto;
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
-}
-
-.nav2 a{
-    display: block;
-    position: relative;
-    float: left;
-    padding: 10em 0 4em;
-    width:25%;
-    text-decoration: none;
-    color: black;
-    transition: 0.7s;
-}
-
-.nav2 a:hover{
-    color: tomato;
-
-}
-
-.effect{
-    position: absolute;
-    left:-12.5%;
-    transition: 0.7s ease-in-out;
-}
-
-.nav2 a:nth-child(1):hover ~ .effect{
-    left:12.5%;
-}
-
-.nav2 a:nth-child(2):hover ~ .effect{
-    left:37.5%;
-}
-
-.nav2 a:nth-child(3):hover ~ .effect{
-    left:62.5%;
-}
-.nav2 a:nth-child(4):hover ~ .effect{
-    left:87.5%;
-}
-
-.dot-nav::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 55%;
-    height:0.05vw; /*if i wanna remove the line this is the spot*/
-    background: tomato;
-    bottom: 3.2vw;
-}
-
-.dot-nav a::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width:0.35vw;
-    height:0.35vw;
-    bottom:3vw;
-    left:50%;
-    margin-left: -0.1vw;
-    background: tomato;
-    border-radius: 100%;
-}
-
-.dot-nav .effect{
-    width: 0.6vw;
-    height: 0.6vw;
-    bottom:2.9vw;
-    margin-left:-0.3vw;
-    background: tomato;
-    border-radius: 100%;
-}
 
 .goals{
     top:65vw;
@@ -331,6 +244,96 @@
     top:277vw;
     left:12vw;
     padding-bottom: 5vw;
+}
+
+/*navigation*/
+.dot-nav, a{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Lato', sans-serif;
+    vertical-align: baseline;
+    font-size:1vw;
+}
+
+
+.nav2{
+    text-align: center;
+    overflow: hidden;
+    margin:12em auto;
+    width:32vw;
+    position: relative;
+    top:-54.3vw;  
+    left:33vw;
+}
+
+.nav2 a{
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10em 0 4em;
+    width:25%;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.nav2 a:hover{
+    color: tomato;
+
+}
+
+.effect{
+    position: absolute;
+    left:-12.5%;
+    transition: 0.7s ease-in-out;
+}
+
+.nav2 a:nth-child(1):hover ~ .effect{
+    left:12.5%;
+}
+
+.nav2 a:nth-child(2):hover ~ .effect{
+    left:37.5%;
+}
+
+.nav2 a:nth-child(3):hover ~ .effect{
+    left:62.5%;
+}
+.nav2 a:nth-child(4):hover ~ .effect{
+    left:87.5%;
+}
+
+.dot-nav::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 55%;
+    height:0.05vw; /*if i wanna remove the line this is the spot*/
+    background: tomato;
+    bottom: 3.2vw;
+}
+
+.dot-nav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:0.35vw;
+    height:0.35vw;
+    bottom:3vw;
+    left:50%;
+    margin-left: -0.1vw;
+    background: tomato;
+    border-radius: 100%;
+}
+
+.dot-nav .effect{
+    width: 0.6vw;
+    height: 0.6vw;
+    bottom:2.9vw;
+    margin-left:-0.3vw;
+    background: tomato;
+    border-radius: 100%;
 }
 
 @media(min-width:10rem){

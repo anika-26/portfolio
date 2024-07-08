@@ -282,7 +282,7 @@
     width:50vw; 
     padding-bottom:5vw;
 }
-
+/*navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
@@ -297,10 +297,10 @@
     text-align: center;
     overflow: hidden;
     margin:12em auto;
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
+    width:32vw;
+    position: relative;
+    top:-56vw;  
+    left:33vw;
 }
 
 .nav2 a{

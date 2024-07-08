@@ -307,11 +307,11 @@
     
 }
 
-
+/*navigation*/
 .dot-nav, a{
-    margin:0px;
-    padding:0px;
-    border:0px;
+    margin:0;
+    padding:0;
+    border:0;
     font-family: 'Lato', sans-serif;
     vertical-align: baseline;
     font-size:1vw;
@@ -320,13 +320,12 @@
 
 .nav2{
     text-align: center;
-    overflow-x: hidden;
+    overflow: hidden;
     margin:12em auto;
-    
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
+    width:32vw;
+    position: relative;
+    top:-18vw;  
+    left:33vw;
 }
 
 .nav2 a{

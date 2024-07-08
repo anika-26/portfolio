@@ -89,23 +89,7 @@ body{
     left:20.3vw;
 }
 
-.main-nav{
 
-    position: absolute;
-    top:5vw;
-    left:73vw;
-    
-}
-.main-nav a{
-    font-size:1vw;
-    margin-left: 1vw;
-    text-decoration: none;
-    color: black;
-}
-
-.main-nav a:hover{
-    color: peachpuff;
-}
 
 .fadein img{
     opacity:0.5;
@@ -173,7 +157,7 @@ transition: 1s ease;
 
 
 
-/*Test navigation*/
+/*navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
@@ -188,10 +172,10 @@ transition: 1s ease;
     text-align: center;
     overflow: hidden;
     margin:12em auto;
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
+    width:32vw;
+    position: relative;
+    top:-18vw;  
+    left:33vw;
 }
 
 .nav2 a{
