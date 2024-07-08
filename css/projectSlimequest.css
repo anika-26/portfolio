@@ -1,7 +1,7 @@
 .watercolourBorder{
     position: absolute;
     transform: scaleX(-1);
-    top:344vw;
+    top:260vw;
     left:0vw;
     width:100vw;
     overflow: hidden;
@@ -45,6 +45,7 @@
     left:20.5vw;
     font-size:1.5vw;
 }
+
 .imgLogo{
     position: absolute;
 
@@ -53,94 +54,74 @@
 
 }
 
-.imgPosthumanism{
-    position: relative;
-    z-index: 1;
-    top:25vw;
-    left:0; /*was 10 vw*/
+.imgSlimequest{
+    position: absolute;
+    left:6vw;
+    top:28vw;
 }
 
 .titles{
-   
-    font-family:  'Lato', sans-serif;
     font-size:1.3vw;
-    padding-right: 0;
+  
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
     
 }
 
 .title1{
+    top:29vw;
+    left:44vw;
     font-weight: 700;
-    position: absolute;
-    z-index: 1;
-    top:27vw;
-    left:46vw;
 }
 
 .title2{
     font-weight: 700;
-    position: absolute;
-    z-index: 1;
-    top:30vw;
-    left:46vw;
+    top:32vw;
+    left:44vw;
 }
 
 .title3{
     font-weight: 700;
-    position: absolute;
-    z-index: 1;
-    top:33vw;
-    left:46vw;
+    top:35vw;
+    left:44vw;
 }
+
+
+.title2Sub{
+    
+    top:32vw;
+    left:48.5vw;
+}
+
+.title3Sub{
+   
+    top:35vw;
+    left:48.5vw;
+}
+
 .title4{
     font-weight: 700;
-    position: absolute;
-    z-index: 1;
-    top:36vw;
-    left:46vw;
+    top:38vw;
+    left:44vw;
+}
+
+.title4Sub{
+   
+    top:38vw;
+    left:48.5vw;
 }
 
 .title5{
     font-weight: 700;
-    position: absolute;
-    z-index: 1;
-    top:39vw;
-    left:46vw;
+    top:41vw;
+    left:44vw;
 }
-
-.title2Sub{
-    position: absolute;
-    z-index: 1;
-   top:30vw;
-    left:52vw;
-}
-
-.title3Sub{
-    position: absolute;
-    z-index: 1;
-    top:33vw;
-    left:52vw;
-}
-
-
-.title4Sub{
-    position: absolute;
-    z-index: 1;
-    top:36vw;
-    left:52vw;
-}
-
 .title5Sub{
-    position: absolute;
-    z-index: 1;
-    top:40.2vw;
-    left:52vw;
+
+    top:42.3vw;
+    left:48.5vw;
     text-decoration: none;
     color:black;
-}
-
-.title5Sub:hover{
-    text-decoration: underline;
-    color: tomato;
 }
 
 .projHeaders{
@@ -152,12 +133,185 @@
 }
 
 
+.goals{
+    top:60vw;
+   
+}
 
+.process{
+    top:79vw;
+}
+
+.challenges{
+    top:277vw;
+}
+
+.para1{
+    position: absolute;
+    white-space: pre-line;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width:50vw;
+    top:66vw;
+    left:12vw;
+
+}
+
+.para2{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width:50vw;
+    top:85vw;
+    left:12vw;
+}
+.para3{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 50vw;
+    top:126vw;
+    left:12vw;
+
+}
+
+.para4{
+    position: absolute;
+    white-space: pre-line;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 50vw;
+    top:184vw;
+    left:12vw;
+
+}
+
+.para5{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 50vw;
+    top:228vw;
+    left:12vw;
+
+}
+
+.para6{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 50vw;
+    top:270vw;
+    left:12vw;
+    padding-bottom: 5vw;
+}
+
+.para7{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    width: 50vw;
+    top:296vw;
+    left:45vw;
+    padding-bottom: 5vw;
+}
+
+
+
+.imgFigjam{
+    position: absolute;
+    top:100vw;
+    left:12vw;
+}
+
+.imgStickynotes {
+    position: absolute;
+    top:139vw;
+    left:10vw;
+}
+.imgCaveLayout{
+    position: absolute;
+    top:143vw;
+    left:44vw;
+}
+
+.imgCavelvl{
+    position: absolute;
+    left:12vw;
+    top:198vw;
+}
+
+.imgRiddle{
+    position:absolute;
+    left:12vw;
+    top:240vw;
+}
+
+.imgCode{
+    position:absolute;
+    left:12vw;
+    top:285vw;
+}
+
+
+.figureCaption1{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:122vw;
+    left:26vw;
+}
+
+
+.figureCaption2{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:178vw;
+    left:18vw;
+}
+
+
+.figureCaption3{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:175vw;
+    left:60vw;
+}
+
+.figureCaption4{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:224vw;
+    left:25vw;
+}
+
+.figureCaption5{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:266vw;
+    left:26vw;
+}
+
+.figureCaption6{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:329vw;
+    left:17vw;
+}
+
+
+/*navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
     font-size:1vw;
 }
@@ -167,10 +321,10 @@
     text-align: center;
     overflow: hidden;
     margin:12em auto;
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
+    width:32vw;
+    position: relative;
+    top:-18vw;  
+    left:33vw;
 }
 
 .nav2 a{
@@ -241,182 +395,6 @@
     background: tomato;
     border-radius: 100%;
 }
-
-.goals{
-    top:65vw;
-   
-}
-
-.para1{
-    position: absolute;
-    white-space: pre-line;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2vw;
-    width:50vw;
-    top:71vw;
-    left:12vw;
-
-}
-
-.process{
-    top:84vw;
-}
-
-.para2{
-    position: absolute;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2vw;
-    width:50vw;
-    top:90vw;
-    left:12vw;
-}
-
-.imgFigjam{
-    position: absolute;
-    top:102vw;
-    left:12vw;
-}
-
-.figureCaption1{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:122vw;
-    left:25vw;
-}
-
-.para3{
-    position: absolute;
-    font-family: 'Lato',sans-serif;
-    font-size: 1.2vw;
-    width: 50vw;
-    top:126vw;
-    left:12vw;
-
-}
-
-.imgStickynotes {
-    position: absolute;
-    top:136vw;
-    left:12vw;
-}
-
-.figureCaption2{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:174vw;
-    left:21vw;
-}
-
-.imgCaveLayout{
-    position: absolute;
-    top:177vw;
-    left:12vw;
-}
-.figureCaption3{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:209vw;
-    left:23vw;
-}
-.para4{
-    position: absolute;
-    white-space: pre-line;
-
-    font-family: 'Lato',sans-serif;
-    font-size: 1.2vw;
-    width: 50vw;
-    top:213vw;
-    left:12vw;
-
-}
-
-.imgCavelvl{
-    position: absolute;
-    left:12vw;
-    top:227vw;
-}
-
-.figureCaption4{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:253vw;
-    left:25vw;
-}
-
-.para5{
-    position: absolute;
-    font-family: 'Lato',sans-serif;
-    font-size: 1.2vw;
-    width: 50vw;
-    top:257vw;
-    left:12vw;
-
-}
-.challenges{
-    top:304vw;
-}
-
-.para7{
-    position: absolute;
-    font-family: 'Lato',sans-serif;
-    font-size: 1.2vw;
-    width: 50vw;
-    top:310vw;
-    left:12vw;
-    padding-bottom: 5vw;
-}
-
-.imgRiddle{
-    position:absolute;
-    left:12vw;
-    top:268vw;
-}
-
-.figureCaption5{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:294vw;
-    left:25vw;
-}
-
-.para6{
-    position: absolute;
-    font-family: 'Lato',sans-serif;
-    font-size: 1.2vw;
-    width: 50vw;
-    top:298vw;
-    left:12vw;
-    padding-bottom: 5vw;
-}
-
-.imgCode{
-    position:absolute;
-    left:12vw;
-    top:313vw;
-}
-.figureCaption6{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:385vw;
-    left:25vw;
-}
-.para7{
-    position: absolute;
-    white-space: pre-line;
-    font-family: 'Lato',sans-serif;
-    font-size: 1.2vw;
-    width: 50vw;
-    top:385vw;
-    left:12vw;
-    
-}
-
 @media(min-width:10rem){
     .imgSpiral{
         transform: scale(70%);
@@ -453,24 +431,24 @@
         left:3vw;
     }
     .para1{
-        width:50vw;
+        width:43vw;
     }
     .para2{
-        width:50vw;
+        width:43vw;
     }
     .para3{
-        width:50vw;
+        width:43vw;
     }
     .para4{
-        width:50vw;
+        width:43vw;
     }
     .para5{
-        width:50vw;
+        width:43vw;
     }
     .para6{
-        width:50vw;
+        width:43vw;
     }
     .para7{
-        width:50vw;
+        width:43vw;
     }
 }
