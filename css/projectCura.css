@@ -1,11 +1,26 @@
-.imgSpiral{
-  
+
+
+.watercolourBorder{
     position: absolute;
-  
-    top:10vw;
-    left:3vw;
-    transform: scale(170%);
-    opacity: 15%;
+    transform: scaleX(-1);
+    top:230vw;
+    left:0vw;
+    width:100vw;
+    overflow: hidden;
+}
+.watercolourBorder2{
+    position: absolute;
+    transform: rotate(90deg);
+    top:-10vw;
+    left:-22vw;
+    width:100vw;
+    overflow: hidden;
+}
+
+.blocker{
+    position: absolute;
+    top:49vw;
+    left:0vw;
 }
 
 .body{
