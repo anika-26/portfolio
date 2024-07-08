@@ -247,6 +247,21 @@
     width:100vw;
     overflow: hidden;
 }
+
+.watercolourBorder2{
+    position: absolute;
+    transform: rotate(90deg);
+    top:-10vw;
+    left:-22vw;
+    width:100vw;
+    overflow: hidden;
+}
+
+.blocker{
+    position: absolute;
+    top:49vw;
+    left:0vw;
+}
 .figureCaption1{
     font-family: 'Poppins', sans-serif;
     font-size:0.8vw;
