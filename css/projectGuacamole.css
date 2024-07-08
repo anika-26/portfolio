@@ -36,20 +36,7 @@
     font-size:1.5vw;
 }
 
-.main-nav{
 
-    position: absolute;
-    top:5vw;
-    left:73vw;
-    
-}
-.main-nav a{
-    font-family: 'Poppins', sans-serif;
-    font-size:1vw;
-    margin-left: 1vw;
-    text-decoration: none;
-    color: black;
-}
 
 .imgLogo{
     position: absolute;
@@ -322,9 +309,9 @@
 
 
 .dot-nav, a{
-    margin:0;
-    padding:0;
-    border:0;
+    margin:0px;
+    padding:0px;
+    border:0px;
     font-family: 'Lato', sans-serif;
     vertical-align: baseline;
     font-size:1vw;
@@ -333,8 +320,9 @@
 
 .nav2{
     text-align: center;
-    overflow: hidden;
+    overflow-x: hidden;
     margin:12em auto;
+    
     width:40vw;
     position: absolute;
     bottom:25vw;   
