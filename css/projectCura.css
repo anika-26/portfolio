@@ -71,15 +71,14 @@
 }
 
 .imgCuraHome{
-    position: relative;
-   z-index: 1;
-    left:10vw;
-    bottom:-26vw;
+    position: absolute;
+    left:14vw;
+    top:25vw;
 }
 
 .titles{
     font-size:1.3vw;
-    font-family:  'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -135,38 +134,76 @@
 }
 
 .goals{
-    top:65vw;
-    font-family:  'Lato', sans-serif;
+    top:60vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.process{
+    top:82vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.challenges{
+    top:261vw;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
 }
 
 .para1{
     position: absolute;
-    font-size:1.2vw;
+    font-size:1vw;
     white-space: pre-line;
 
-    font-family: 'Lato',sans-serif;
-    top:69vw;
+    font-family: 'Poppins', sans-serif;
+    top:64vw;
     left:12vw;
     width:50vw;
 
 }
 
-.process{
-    top:87vw;
-    font-family:  'Lato', sans-serif;
-    font-weight: 700;
-    font-size:2.5vw;
-}
 .para2{
     position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:93vw;
+    font-size:1vw;
+    font-family: 'Poppins', sans-serif;
+    top:88vw;
     left:12vw;
     width:50vw;
 
+}
+
+.para3{
+    position: absolute;
+    font-size:1vw;
+    font-family: 'Poppins', sans-serif;
+    top:160vw;
+    left:12vw;
+    width:50vw;
+}
+
+.para4{
+    position: absolute;
+    font-size:1vw;
+    font-family: 'Poppins', sans-serif;
+    top:208vw;
+    left:12vw;
+    width:50vw;
+}
+
+.para5{
+    position: absolute;
+    font-size:1vw;
+    white-space: pre-line;
+
+    font-family: 'Poppins', sans-serif;
+    top:266vw;
+    left:12vw;
+    width:50vw; 
+    padding-bottom:5vw;
 }
 
 .imgSketch1{
@@ -181,128 +218,93 @@
     left:11vw;
 }
 
-.figureCaption1{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:133vw;
-    left:12vw;
-}
-
-.figureCaption2{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:156vw;
-    left:12vw;
-}
-
-.para3{
-    position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:160vw;
-    left:12vw;
-    width:50vw;
-}
-
 .imgCuraRem{
     position: absolute;
-    top:169vw;
+    top:170vw;
     left:12vw;
 }
 
 .imgCuraRem2{
     position: absolute;
-    top:169vw;
+    top:170vw;
     left:30vw;
 }
 
 .imgCuraMap{
     position: absolute;
-    top:169vw;
+    top:170vw;
     left:48vw;
 }
 
-.figureCaption3{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
+.imgCode{
+    position: absolute;
+    top:218vw;
+    left:12vw;
+}
+
+.figureCaption1{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
     position:absolute;
-    top:201vw;
+    top:133vw;
+    left:25vw;
+}
+
+.figureCaption2{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:156vw;
+    left:22vw;
+}
+
+.figureCaption3{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:202vw;
     left:13vw;
     width:13vw;
     text-align: center;
 }
 
 .figureCaption4{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
     position:absolute;
-    top:201vw;
+    top:202vw;
     left:31vw;
     width:13vw;
     text-align: center;
 }
 
 .figureCaption5{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
     position:absolute;
-    top:201vw;
+    top:202vw;
     left:49vw;
     width:13vw;
     text-align: center;
 }
 
-.imgCode{
-    position: absolute;
-    top:220vw;
-    left:10vw;
-}
-
-.para4{
-    position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:208vw;
-    left:12vw;
-    width:50vw;
-}
 
 .figureCaption6{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
     position:absolute;
-    top:260vw;
-    left:16vw;
+    top:257vw;
+    left:18vw;
     width:40vw;
     text-align: center;
 }
 
-.challenges{
-    top:264vw;
-    font-family:  'Lato', sans-serif;
-    font-weight: 700;
-    font-size:2.5vw;
-}
-
-.para5{
-    position: absolute;
-    font-size:1.2vw;
-    white-space: pre-line;
-
-    font-family: 'Lato',sans-serif;
-    top:269vw;
-    left:12vw;
-    width:50vw; 
-    padding-bottom:5vw;
-}
 /*navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
     font-size:1vw;
 }
@@ -314,7 +316,7 @@
     margin:12em auto;
     width:32vw;
     position: relative;
-    top:-56vw;  
+    top:-18vw;  
     left:33vw;
 }
 
@@ -387,6 +389,7 @@
     border-radius: 100%;
 }
 
+
 @media(min-width:10rem){
     .imgSpiral{
         transform: scale(70%);
@@ -418,18 +421,18 @@
         left:3vw;
     }
     .para1{
-        width:50vw;
+        width:43vw;
     }
     .para2{
-        width:50vw;
+        width:43vw;
     }
     .para3{
-        width:50vw;
+        width:43vw;
     }
     .para4{
-        width:50vw;
+        width:43vw;
     }
     .para5{
-        width:50vw;
+        width:43vw;
     }
 }
