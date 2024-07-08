@@ -274,10 +274,24 @@
 .watercolourBorder{
     position: absolute;
     transform: scaleX(-1);
-    top:227vw;
+    top:330vw;
     left:0vw;
     width:100vw;
     overflow: hidden;
+}
+.watercolourBorder2{
+    position: absolute;
+    transform: rotate(90deg);
+    top:-10vw;
+    left:-22vw;
+    width:100vw;
+    overflow: hidden;
+}
+
+.blocker{
+    position: absolute;
+    top:49vw;
+    left:0vw;
 }
 .figureCaption1{
     font-family: 'Poppins', sans-serif;
