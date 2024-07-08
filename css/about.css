@@ -52,7 +52,7 @@
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
     font-size:1vw;
 }
@@ -139,7 +139,7 @@
 
 .contact{
     position: absolute;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight:700;
     font-size:1vw;
     top: 46vw;
@@ -148,7 +148,7 @@
 
 .emailLink{
     position: absolute;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-size:1vw;
     top:46.8vw;
