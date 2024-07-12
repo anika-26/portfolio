@@ -1,11 +1,24 @@
-.imgSpiral{
-  
+.watercolourBorder{
     position: absolute;
-  
-    top:10vw;
-    left:3vw;
-    transform: scale(170%);
-    opacity: 15%;
+    transform: scaleX(-1);
+    top:330vw;
+    left:0vw;
+    width:100vw;
+    overflow: hidden;
+}
+.watercolourBorder2{
+    position: absolute;
+    transform: rotate(90deg);
+    top:-10vw;
+    left:-22vw;
+    width:100vw;
+    overflow: hidden;
+}
+
+.blocker{
+    position: absolute;
+    top:49vw;
+    left:0vw;
 }
 
 .body{
@@ -40,7 +53,7 @@
     
 }
 .main-nav a{
-    font-family:  'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:1vw;
     margin-left: 1vw;
     text-decoration: none;
@@ -55,64 +68,76 @@
 
 }
 
-.imgCuraHome{
-    position: relative;
-   z-index: 1;
-    left:10vw;
-    bottom:-26vw;
+.imgTimber{
+    position: absolute;
+    left:6vw;
+    top:28vw;
 }
 
 .titles{
     font-size:1.3vw;
-    font-family:  'Lato', sans-serif;
+  
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
     
 }
 
 .title1{
-    font-weight: 700;
-    position: absolute;
     top:29vw;
-    left:32vw;
+    left:44vw;
+    font-weight: 700;
 }
 
 .title2{
     font-weight: 700;
-    position: absolute;
     top:32vw;
-    left:32vw;
+    left:44vw;
+}
+
+.title2Sub{
+    
+    top:32vw;
+    left:48.5vw;
 }
 
 .title3{
     font-weight: 700;
-    position: absolute;
-    top:35vw;
-    left:32vw;
+    top:37vw;
+    left:44vw;
 }
 
-.title2Sub{
-    position: absolute;
-    top:32vw;
-    left:37vw;
-}
 
 .title3Sub{
-    position: absolute;
-    top:35vw;
-    left:37vw;
+   
+    top:37vw;
+    left:48.5vw;
 }
 
 .title4{
     font-weight: 700;
-    position: absolute;
-    top:38vw;
-    left:32vw;
+    top:40vw;
+    left:44vw;
 }
 
 .title4Sub{
-    position: absolute;
-    top:38vw;
-    left:37vw;
+   
+    top:40vw;
+    left:48.5vw;
 }
+
+.title5{
+    font-weight: 700;
+    top:43vw;
+    left:44vw;
+}
+.title5Sub{
+
+    top:44.3vw;
+    left:48.5vw;
+    text-decoration: none;
+    color:black;
+}
+
 
 .projHeaders{
     position: absolute;
@@ -121,7 +146,21 @@
 
 .goals{
     top:65vw;
-    font-family:  'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.process{
+    top:87vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+
+.challenges{
+    top:264vw;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
 }
@@ -131,27 +170,51 @@
     font-size:1.2vw;
     white-space: pre-line;
 
-    font-family: 'Lato',sans-serif;
+    font-family: 'Poppins', sans-serif;
     top:69vw;
     left:12vw;
     width:50vw;
 
 }
 
-.process{
-    top:87vw;
-    font-family:  'Lato', sans-serif;
-    font-weight: 700;
-    font-size:2.5vw;
-}
 .para2{
     position: absolute;
     font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Poppins', sans-serif;
     top:93vw;
     left:12vw;
     width:50vw;
 
+}
+
+.para3{
+    position: absolute;
+    font-size:1.2vw;
+    font-family: 'Poppins', sans-serif;
+    top:160vw;
+    left:12vw;
+    width:50vw;
+}
+
+.para4{
+    position: absolute;
+    font-size:1.2vw;
+    font-family: 'Poppins', sans-serif;
+    top:208vw;
+    left:12vw;
+    width:50vw;
+}
+
+.para5{
+    position: absolute;
+    font-size:1.2vw;
+    white-space: pre-line;
+
+    font-family: 'Poppins', sans-serif;
+    top:269vw;
+    left:12vw;
+    width:50vw; 
+    padding-bottom:5vw;
 }
 
 .imgSketch1{
@@ -164,31 +227,6 @@
     position: absolute;
     top:140vw;
     left:11vw;
-}
-
-.figureCaption1{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:133vw;
-    left:12vw;
-}
-
-.figureCaption2{
-    font-family:'Lato', sans-serif;
-    font-size:1vw;
-    position:absolute;
-    top:156vw;
-    left:12vw;
-}
-
-.para3{
-    position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:160vw;
-    left:12vw;
-    width:50vw;
 }
 
 .imgCuraRem{
@@ -209,8 +247,31 @@
     left:48vw;
 }
 
+.imgCode{
+    position: absolute;
+    top:220vw;
+    left:10vw;
+}
+
+.figureCaption1{
+    font-family: 'Poppins', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:133vw;
+    left:12vw;
+}
+
+.figureCaption2{
+    font-family: 'Poppins', sans-serif;
+    font-size:1vw;
+    position:absolute;
+    top:156vw;
+    left:12vw;
+}
+
+
 .figureCaption3{
-    font-family:'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:1vw;
     position:absolute;
     top:201vw;
@@ -220,7 +281,7 @@
 }
 
 .figureCaption4{
-    font-family:'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:1vw;
     position:absolute;
     top:201vw;
@@ -230,7 +291,7 @@
 }
 
 .figureCaption5{
-    font-family:'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:1vw;
     position:absolute;
     top:201vw;
@@ -239,23 +300,8 @@
     text-align: center;
 }
 
-.imgCode{
-    position: absolute;
-    top:220vw;
-    left:10vw;
-}
-
-.para4{
-    position: absolute;
-    font-size:1.2vw;
-    font-family: 'Lato',sans-serif;
-    top:208vw;
-    left:12vw;
-    width:50vw;
-}
-
 .figureCaption6{
-    font-family:'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:1vw;
     position:absolute;
     top:260vw;
@@ -264,30 +310,13 @@
     text-align: center;
 }
 
-.challenges{
-    top:264vw;
-    font-family:  'Lato', sans-serif;
-    font-weight: 700;
-    font-size:2.5vw;
-}
 
-.para5{
-    position: absolute;
-    font-size:1.2vw;
-    white-space: pre-line;
-
-    font-family: 'Lato',sans-serif;
-    top:269vw;
-    left:12vw;
-    width:50vw; 
-    padding-bottom:5vw;
-}
-
+/*navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
     border:0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
     font-size:1vw;
 }
@@ -297,10 +326,10 @@
     text-align: center;
     overflow: hidden;
     margin:12em auto;
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
+    width:32vw;
+    position: relative;
+    top:-18vw;  
+    left:33vw;
 }
 
 .nav2 a{
