@@ -34,8 +34,8 @@
 .imgAbout{
     position: absolute;
     z-index: 1;
-    top:27vw;
-    left:47vw;
+    top:26.5vw;
+    left:50vw;
 }
 
 .imgSpiral{
@@ -48,6 +48,40 @@
 
 }
 
+
+
+.contact{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    font-size:1vw;
+    top: 46vw;
+    left:12vw;
+}
+
+.emailLink{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size:1vw;
+    top:46.8vw;
+    left:18.5vw;
+    padding-bottom: 4vw;
+}
+
+.emailLink:hover{
+    color:tomato;
+    text-decoration: none;
+}
+
+.watercolourBorder{
+    position: absolute;
+    top:17vw;
+    right:0.05vw;
+    overflow: hidden;
+}
+
+/*navigation*/
 .dot-nav, a{
     margin:0;
     padding:0;
@@ -62,10 +96,10 @@
     text-align: center;
     overflow: hidden;
     margin:12em auto;
-    width:40vw;
-    position: absolute;
-    bottom:25vw;   
-    left:63vw;
+    width:32vw;
+    position: relative;
+    top:-18vw;  
+    left:33vw;
 }
 
 .nav2 a{
@@ -135,37 +169,6 @@
     margin-left:-0.3vw;
     background: tomato;
     border-radius: 100%;
-}
-
-.contact{
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    font-weight:700;
-    font-size:1vw;
-    top: 46vw;
-    left:12vw;
-}
-
-.emailLink{
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-size:1vw;
-    top:46.8vw;
-    left:18.5vw;
-    padding-bottom: 4vw;
-}
-
-.emailLink:hover{
-    color:tomato;
-    text-decoration: none;
-}
-
-.watercolourBorder{
-    position: absolute;
-    top:17vw;
-    right:0.05vw;
-    overflow: hidden;
 }
 
 
