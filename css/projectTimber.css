@@ -1,7 +1,7 @@
 .watercolourBorder{
     position: absolute;
     transform: scaleX(-1);
-    top:330vw;
+    top:355vw;
     left:0vw;
     width:100vw;
     overflow: hidden;
@@ -45,20 +45,7 @@
     font-size:1.5vw;
 }
 
-.main-nav{
 
-    position: absolute;
-    top:5vw;
-    left:73vw;
-    
-}
-.main-nav a{
-    font-family: 'Poppins', sans-serif;
-    font-size:1vw;
-    margin-left: 1vw;
-    text-decoration: none;
-    color: black;
-}
 
 .imgLogo{
     position: absolute;
@@ -145,21 +132,27 @@
 }
 
 .goals{
-    top:65vw;
+    top:57vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
 }
 
 .process{
-    top:87vw;
+    top:99vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:2.5vw;
+}
+.environmentDesign{
+    top:136vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
 }
 
 .challenges{
-    top:264vw;
+    top:343vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size:2.5vw;
@@ -167,11 +160,11 @@
 
 .para1{
     position: absolute;
-    font-size:1.2vw;
+    font-size:1vw;
     white-space: pre-line;
 
     font-family: 'Poppins', sans-serif;
-    top:69vw;
+    top:61vw;
     left:12vw;
     width:50vw;
 
@@ -179,9 +172,10 @@
 
 .para2{
     position: absolute;
-    font-size:1.2vw;
+    font-size:1vw;
+    white-space: pre-line;
     font-family: 'Poppins', sans-serif;
-    top:93vw;
+    top:103vw;
     left:12vw;
     width:50vw;
 
@@ -189,127 +183,254 @@
 
 .para3{
     position: absolute;
-    font-size:1.2vw;
+    font-size:1vw;
     font-family: 'Poppins', sans-serif;
-    top:160vw;
+    top:163vw;
     left:12vw;
     width:50vw;
 }
 
 .para4{
     position: absolute;
-    font-size:1.2vw;
+    font-size:1vw;
     font-family: 'Poppins', sans-serif;
-    top:208vw;
+    top:227vw;
     left:12vw;
     width:50vw;
 }
 
 .para5{
     position: absolute;
-    font-size:1.2vw;
+    font-size:1vw;
     white-space: pre-line;
 
     font-family: 'Poppins', sans-serif;
-    top:269vw;
+    top:244vw;
+    left:54vw;
+    width:50vw; 
+   
+}
+.para6{
+    position: absolute;
+    font-size:1vw;
+    white-space: pre-line;
+
+    font-family: 'Poppins', sans-serif;
+    top:347vw;
+    left:12vw;
+    width:50vw; 
+   
+}
+.para7{
+    position: absolute;
+    font-size:1vw;
+    white-space: pre-line;
+
+    font-family: 'Poppins', sans-serif;
+    top:400vw;
     left:12vw;
     width:50vw; 
     padding-bottom:5vw;
+   
 }
 
-.imgSketch1{
+
+.img1{
     position: absolute;
-    top:100vw;
-    left:10vw;
+    top:104vw;
+    left:56vw;
 }
 
-.imgSketch2{
+.img2{
     position: absolute;
-    top:140vw;
-    left:11vw;
-}
-
-.imgCuraRem{
-    position: absolute;
-    top:169vw;
+    top:144vw;
     left:12vw;
 }
 
-.imgCuraRem2{
+.img3{
     position: absolute;
-    top:169vw;
-    left:30vw;
+    top:144vw;
+    left:53vw;
 }
 
-.imgCuraMap{
+.img4{
     position: absolute;
-    top:169vw;
-    left:48vw;
+    top:172vw;
+    left:12vw;
+}
+.img5{
+    position: absolute;
+    top:199vw;
+    left:12vw;
+}
+.img6{
+    position: absolute;
+    top:242vw;
+    left:12vw;
 }
 
-.imgCode{
+.img7{
     position: absolute;
-    top:220vw;
-    left:10vw;
+    top:266vw;
+    left:12vw;
+}
+.img8{
+    position: absolute;
+    top:266vw;
+    left:54vw;
+}
+.img9{
+    position: absolute;
+    top:292.5vw;
+    left:12vw;
+}
+.img10{
+    position: absolute;
+    top:292.5vw;
+    left:54vw;
+}
+.img11{
+    position: absolute;
+    top:319vw;
+    left:12vw;
+}
+.img12{
+    position: absolute;
+    top:319vw;
+    left:54vw;
+}
+.img13{
+    position: absolute;
+    top:365vw;
+    left:12vw;
+}
+.img14{
+    position: absolute;
+    top:365vw;
+    left:29vw;
 }
 
 .figureCaption1{
     font-family: 'Poppins', sans-serif;
-    font-size:1vw;
+    font-size:0.8vw;
     position:absolute;
-    top:133vw;
-    left:12vw;
+    top:133svw;
+    left:63vw;
 }
 
 .figureCaption2{
     font-family: 'Poppins', sans-serif;
-    font-size:1vw;
+    font-size:0.8vw;
     position:absolute;
-    top:156vw;
-    left:12vw;
+    top:159vw;
+    left:22vw;
 }
 
 
 .figureCaption3{
     font-family: 'Poppins', sans-serif;
-    font-size:1vw;
+    font-size:0.8vw;
     position:absolute;
-    top:201vw;
-    left:13vw;
-    width:13vw;
-    text-align: center;
+    top:159vw;
+    left:63vw;
+   
+    
 }
 
 .figureCaption4{
     font-family: 'Poppins', sans-serif;
-    font-size:1vw;
+    font-size:0.8vw;
     position:absolute;
-    top:201vw;
-    left:31vw;
-    width:13vw;
-    text-align: center;
+    top:195vw;
+    left:36vw;
+   
 }
 
 .figureCaption5{
     font-family: 'Poppins', sans-serif;
-    font-size:1vw;
+    font-size:0.8vw;
     position:absolute;
-    top:201vw;
-    left:49vw;
-    width:13vw;
-    text-align: center;
+    top:222vw;
+    left:36vw;
+    
 }
 
 .figureCaption6{
     font-family: 'Poppins', sans-serif;
-    font-size:1vw;
+    font-size:0.8vw;
     position:absolute;
-    top:260vw;
-    left:16vw;
+    top:261.5vw;
+    left:12vw;
     width:40vw;
     text-align: center;
 }
+.figureCaption7{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:288vw;
+    left:27vw;
 
+   
+}
+.figureCaption8{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:288vw;
+    left:68vw;
+   
+}
+.figureCaption9{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:314.4vw;
+    left:25vw;
+   
+}
+.figureCaption10{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:314.4vw;
+    left:66vw;
+   
+}
+.figureCaption11{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:341vw;
+    left:27vw;
+   
+}
+.figureCaption12{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:341vw;
+    left:68vw;
+   
+}
+.figureCaption13{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:399vw;
+    left:14vw;
+    text-align: center;
+    width:10vw;
+   
+}
+.figureCaption14{
+    font-family: 'Poppins', sans-serif;
+    font-size:0.8vw;
+    position:absolute;
+    top:399vw;
+    left:33vw;
+   
+}
 
 /*navigation*/
 .dot-nav, a{
@@ -422,6 +543,12 @@
     .para5{
         width:45vw;
     }
+    .para6{
+        width:45vw;
+    }
+    .para7{
+        width:45vw;
+    }
   
 }
 
@@ -432,18 +559,24 @@
         left:3vw;
     }
     .para1{
-        width:50vw;
+        width:43vw;
     }
     .para2{
-        width:50vw;
+        width:43vw;
     }
     .para3{
-        width:50vw;
+        width:43vw;
     }
     .para4{
-        width:50vw;
+        width:43vw;
     }
     .para5{
-        width:50vw;
+        width:38vw;
+    }
+    .para6{
+        width:43vw;
+    }
+    .para7{
+        width:43vw;
     }
 }
