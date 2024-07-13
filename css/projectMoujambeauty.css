@@ -107,6 +107,10 @@
     color:black;
 }
 
+.title5Sub:hover{
+    color: tomato;
+}
+
 .projHeaders{
     position: absolute;
     left:12vw;

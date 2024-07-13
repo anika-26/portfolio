@@ -123,6 +123,9 @@
     text-decoration: none;
     color:black;
 }
+.title5Sub:hover{
+    color: tomato;
+}
 
 .projHeaders{
     position: absolute;
